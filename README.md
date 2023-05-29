@@ -35,8 +35,9 @@ program.exe
 - Файл "output.txt" должен содержать строку с отформатированной структурой дерева узлов.
 - Пример содержимого файла "output.txt" (на основе примера входных данных выше):
 
+```
 < id: 1; parentid: null; name: Node1; value: >
   < id: 2; parentid: 1; name: Node2; value: >
   < id: 3; parentid: 1; name: Node3; value: >
     < id: 4; parentid: 3; name: Node4; value: >
-   
+```
