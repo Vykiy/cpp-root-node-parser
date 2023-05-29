@@ -7,12 +7,14 @@
 - Структура узлов должна отражать иерархию дерева. Дочерние узлы должны быть вложены внутрь родительских узлов с использованием фигурных скобок {}.
 - Пример содержимого файла "input.txt":
 
+```
 < id: 1; parentid: null; name: Node1; value: >
 < id: 2; parentid: 1; name: Node2; value: >
 < id: 3; parentid: 1; name: Node3; value: >
   < id: 4; parentid: 3; name: Node4; value: >
   < id: 5; parentid: 3; name: Node5; value: >
     < id: 6; parentid: 5; name: Node6; value: >
+```
 
 - Сохраните и закройте файл "input.txt".
 2. Запуск программы:
